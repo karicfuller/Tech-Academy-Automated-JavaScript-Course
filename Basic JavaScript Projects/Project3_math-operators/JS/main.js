@@ -34,3 +34,7 @@ function lessOne() {
     less--
     document.getElementById('lessMath').innerHTML = 'One less than 2 = ' + less;
 }
+
+function randomNumber() {
+    window.alert(Math.random() * 10);
+}
