@@ -22,3 +22,15 @@ function addition() {
     var add = 2 + 2;
     document.getElementById('addMath').innerHTML = '2 + 2 = ' + add;
 }
+
+function plusOne() {
+    var addOne = 2;
+    addOne++
+    document.getElementById('oneMath').innerHTML = '2 + one more = ' + addOne;
+}
+
+function lessOne() {
+    var less = 2;
+    less--
+    document.getElementById('lessMath').innerHTML = 'One less than 2 = ' + less;
+}
